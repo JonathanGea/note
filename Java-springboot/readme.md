@@ -16,3 +16,13 @@ ganti port yang belum digunakan
             </plugin>
    </plugins>
 ```
+
+## Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (default-compile) on project simple: Fatal error compiling: error: invalid target release: 17 -> [Help 1]
+comment version of java in pom.xml
+
+```
+<properties>
+		<!--<java.version>17</java.version>-->
+		<spring-cloud.version>2021.0.3</spring-cloud.version>
+	</properties>
+```
